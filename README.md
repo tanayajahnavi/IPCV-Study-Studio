@@ -1,23 +1,19 @@
 # IPCV Study Studio — JSSSTU 24CS551
-
-A static, GitHub Pages-ready study website for CIE preparation.
-
-## Files
-- `index.html` — complete website (HTML/CSS/JavaScript in one file)
+Static study website for Image Processing and Computer Vision internals.
 
 ## Run locally
-Open `index.html` in a modern browser.
+Open `index.html` in a modern browser. No build tools or server are required.
 
-## Publish with GitHub Pages
-1. Create a GitHub repository named `IPCV-Study-Studio` (or your preferred name).
-2. Upload `index.html` and this `README.md` to the repository root.
-3. Open repository **Settings → Pages**.
-4. Under Build and deployment, select **Deploy from a branch**.
-5. Choose branch `main`, folder `/ (root)`, then Save.
-6. Wait for GitHub Pages to publish the site.
+## GitHub Pages
+1. Create a repository (for example `ipcv-study-studio`).
+2. Upload `index.html` and `README.md` to the repository root.
+3. Repository Settings → Pages → Deploy from a branch → `main` → `/(root)` → Save.
+4. Wait for deployment to complete.
 
-## Content status
-- Unit 1 topics are mapped from the uploaded JSSSTU syllabus and faculty PDFs `Unit1Chapter_01_Introduction_TN.pdf` and `Unit1Chapter_02_Digital Image Fundamentals_TN.pdf`.
-- Unit 2 is a syllabus-based learning draft because the Unit 2 faculty PPT has not been supplied.
-- Practice questions are generated for learning and are not represented as previous-year questions.
+## Content scope
+- Unit 1: Introduction and Digital Image Fundamentals, based on the uploaded JSSSTU faculty slides.
+- Unit 2: Image Enhancement in the Spatial Domain, based on the uploaded Unit 2 slides.
+- Includes worked numerical examples and question-paper-style problems.
+- The supplied papers contain topics beyond Units 1–2; those are not automatically treated as in-scope.
+- Histogram mapping conventions can differ; the worked example states its rounding convention. Follow your faculty's convention in exams.
 - Progress is stored locally in the browser using localStorage.
